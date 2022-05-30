@@ -25,23 +25,12 @@ def format(color, style=''):
 
 # Syntax styles that can be shared by all languages
 
-"""STYLES2 = {
-    'keyword': format([200, 120, 50], 'bold'),
-    'operator': format([150, 150, 150]),
-    'brace': format('darkGray'),
-    'defclass': format([220, 220, 255], 'bold'),
-    'string': format([20, 110, 100]),
-    'string2': format([30, 120, 110]),
-    'comment': format([128, 128, 128]),
-    'self': format([150, 85, 140], 'italic'),
-    'numbers': format([100, 150, 190]),
-}"""
 STYLES2 = {
-       'keyword': format('green'),
+       'keyword': format('orange'),
       'operator': format('red'),
-       'brace': format('blue'),
+       'brace': format('darkRed'),
        'defclass': format('black', 'bold'),
-       'string': format('pink'),
+       'string': format('darkblue'),
        'string2': format('darkGray'),
        'comment': format('darkGreen', 'italic'),
        'self': format('black', 'italic'),
